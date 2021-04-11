@@ -1,6 +1,6 @@
 # Knot-Segmentation
 
-This repo is created to describe the project `Knot Segmentation`, conducted from Jul. 2020 to Aug. 2020, between [CyberCore AI](https://cybercore.co.jp/) and [TODA Construction](https://www.toda.co.jp/english/) <br/>
+This repo is created to describe the project `Knot Segmentation` conducted from Jul. 2020 to Aug. 2020, between [CyberCore AI](https://cybercore.co.jp/) and [TODA Construction](https://www.toda.co.jp/english/) <br/>
 The code is belongs into CyberCore AI. 
 ## Requirements <br/>
 1. Segment the knot (image bellow) <br/>
