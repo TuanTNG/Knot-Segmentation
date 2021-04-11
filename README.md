@@ -20,7 +20,7 @@ Test on PC: 6-core Intel(R) Core(TM) i5-9400 CPU @ 2.90GHz, 16 GiB RAM
 | Modle1 |  768x1280  |   384x640   | 0.4366 | 4.28 |
 | Model2 |  768x1280  |   192x320   | 0.4231 | 6.88 |
 
-* Note: Decrease the size of the input image will help to increase the speed
+Note: Decrease the size of the input image will help to achieve the required speed.
 ### Visualization
 <p float="left">
   <img src="imgs/result_1.png" width="550" />
