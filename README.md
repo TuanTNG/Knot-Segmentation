@@ -1,8 +1,27 @@
 # Knot-Segmentation
 
-This is the project between [CyberCore AI](https://cybercore.co.jp/) and [TODA Construction](https://www.toda.co.jp/english/). 
-Requirements: 
-1. Segment the knot (image bellow)
-![alt text](imgs/requirement.png)
+This Github repo is created for decribing the project `Knot Segmentation` between [CyberCore AI](https://cybercore.co.jp/) and [TODA Construction](https://www.toda.co.jp/english/) <br/>
+The code is belongs into CyberCore AI. 
+## Requirements <br/>
+1. Segment the knot (image bellow) <br/>
+<p float="left">
+  <img src="imgs/requirement.png" width="500" /> 
+</p>
 
 2. Small model with acceptable accuracy and run at least 10 fps on CPU i5-9400.
+
+## Results
+
+### Model benchmark
+Test on PC: 6-core Intel(R) Core(TM) i5-9400 CPU @ 2.90GHz, 16 GiB RAM
+
+|               Model              | Input size | Output size |  mIoU  |  FPS |
+|:--------------------------------:|:----------:|:-----------:|:------:|:----:|
+| Modle1 |  768x1280  |   384x640   | 0.4366 | 4.28 |
+| Model2 |  768x1280  |   192x320   | 0.4231 | 6.88 |
+
+### Visualization
+<p float="left">
+  <img src="imgs/result_1.png" width="550" />
+  <img src="imgs/result_2.png" width="550" /> 
+</p>
